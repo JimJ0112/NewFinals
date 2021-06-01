@@ -152,6 +152,7 @@ body, html {
 	grid-area: footer;
 	background-color: hsla(19, 88%, 30%, 0.863);
 	padding-left: 20px;
+	overflow: auto;
 
 }
 
