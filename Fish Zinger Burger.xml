@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<Foods> 
+
+
+<Food category = "Fish Zinger Burger">
+<category>Fish Zinger Burger</category>
+<Name>Fish Zinger Burger </Name>
+<Available> 130 pcs</Available>
+<inStock> 200 pcs</inStock>
+</Food>
+
+</Foods>

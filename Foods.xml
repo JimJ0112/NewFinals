@@ -1,0 +1,159 @@
+
+<?xml version="1.0"?>
+<Foods> 
+
+<Food category="Beef Burger"> 
+<category>Beef Burger</category>
+<Name >Beef Quarter Pounder </Name>
+<Available> 100 pcs</Available>
+<inStock> 300 pcs</inStock>
+</Food>
+
+<Food category = "Beef Burger">
+<category>Beef Burger </category>
+<Name>Spicy Beef Quarter Pounder </Name>
+<Available> 150 pcs</Available>
+<inStock> 250 pcs</inStock>
+</Food>
+
+<Food category = "Beef Burger">
+<category>Beef Burger</category>
+<Name>Cheesy Melted Beef </Name>
+<Available> 110 pcs</Available>
+<inStock> 200 pcs</inStock>
+</Food>
+
+<Food category = "Chicken Burger">
+<category>Chicken Burger </category>
+<Name>Spicy Hand-breaded Crispy Burger</Name>
+<Available> 150 pcs</Available>
+<inStock> 250 pcs</inStock>
+</Food>
+
+<Food category = "Chicken Burger">
+<category>Chicken Burger</category>
+<Name >Hand-breaded Crispy Burger </Name>
+<Available> 120 pcs</Available>
+<inStock> 350 pcs</inStock>
+</Food>
+
+<Food category = "Chicken Burger">
+<category>Chicken Burger</category>
+<Name>Cheesy Overload Chicken Burger</Name>
+<Available> 100 pcs</Available>
+<inStock> 150 pcs</inStock>
+</Food>
+
+<Food category = "Fish Burger">
+<category>Fish Burger</category>
+<Name> Crispy Big Fish Burger </Name>
+<Available> 110 pcs</Available>
+<inStock> 120 pcs</inStock>
+</Food>
+
+<Food category = "Fish Burger">
+<category>Fish Burger</category>
+<Name>Spicy Big Fish Burger</Name>
+<Available> 100 pcs</Available>
+<inStock> 120 pcs</inStock>
+</Food>
+
+<Food category = "Fish Burger">
+<category>Fish Burger</category>
+<Name>Cheesy Fish Fillet Burger </Name>
+<Available> 140 pcs</Available>
+<inStock> 180 pcs</inStock>
+</Food>
+
+<Food category = "Chicken Zinger Burger">
+<category>Chicken Zinger Burger</category>
+<Name>Chicken Zinger Burger </Name>
+<Available> 100 pcs</Available>
+<inStock> 250 pcs</inStock>
+</Food>
+
+<Food category = "Fish Zinger Burger">
+<category>Fish Zinger Burger</category>
+<Name>Fish Zinger Burger </Name>
+<Available> 130 pcs</Available>
+<inStock> 200 pcs</inStock>
+</Food>
+
+<Food category = "Chicken Broast">
+<category>Chicken Broast</category>
+<Name>Chicken Broast </Name>
+<Available> 400 pcs</Available>
+<inStock> 450 pcs</inStock>
+</Food>
+
+<Food>
+<Name>ChicBroast</Name>
+<category> Chicken Broast</category>
+<Available> 500</Available>
+<inStock> 750</inStock>
+</Food>
+<Food>
+<Name>Chicken Burger </Name>
+<Available> 500</Available>
+<inStock> 750</inStock>
+</Food>
+
+<Food>
+<Name>Fish Burger </Name>
+<Available> 500</Available>
+<inStock> 750</inStock>
+</Food>
+
+<Food>
+<Name>Chicken Zinger Burger </Name>
+<Available> 500</Available>
+<inStock> 750</inStock>
+</Food>
+
+<Food>
+<Name>Fish Zinger Burger </Name>
+<Available> 500</Available>
+<inStock> 750</inStock>
+</Food>
+
+
+<Food>
+<Name>Chicken Broast </Name>
+<Available> 500</Available>
+<inStock> 750</inStock>
+</Food>
+
+<Food>
+<Name>Beef Burger </Name>
+<Available> 500</Available>
+<inStock> 750</inStock>
+</Food>
+
+
+<Food>
+<Name>C </Name>
+<Available> 500</Available>
+<inStock> 750</inStock>
+</Food>
+
+<Food>
+<Name>F</Name>
+<Available> 500</Available>
+<inStock> 750</inStock>
+</Food>
+
+
+
+<Food>
+<Name>Fishurger </Name>
+<Available> 500</Available>
+<inStock> 750</inStock>
+</Food>
+
+
+<Food>
+<Name>ChicBroast </Name>
+<Available> 500</Available>
+<inStock> 750</inStock>
+</Food>
+</Foods>
