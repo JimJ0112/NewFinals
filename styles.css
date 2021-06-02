@@ -60,6 +60,16 @@ a:hover {
 	object-fit: contain;
 	background-color: rgba(238, 141, 31, 0.904); border-radius: 10px; width:100px; height:100%; margin-left:30px; margin-top: 5px;
 }
+#logo:hover{
+	transform: rotateY(360deg);
+	transition-duration: 3s;
+	
+}
+
+#companyid:hover{
+	transform: rotateY(360deg);
+	transition-duration: 3s;
+}
 #navBar{
 	background-color: hsla(31, 100%, 10%, 0.295);
 	height: 80px;
