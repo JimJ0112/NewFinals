@@ -97,8 +97,8 @@
 
             }else if(category == "Chicken Broast"){
                 item1Img.src="Chicken Broast.jpg";
-                item2Img.src="chickenbroast2.jpg";
-                item3Img.src="chickenbroast3.jpg";
+                item2Img.src="chickenbroast2.png";
+                item3Img.src="chickenbroast3.png";
                 item1Text.innerHTML = "Chicken Broast"
                 item2Text.innerHTML = "Chicken Broast"
                 item3Text.innerHTML = "Chicken Broast"

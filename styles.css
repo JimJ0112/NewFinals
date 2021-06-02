@@ -148,6 +148,18 @@ body, html {
 	height: 300px;
 
 }
+
+#grid-item-5:hover{
+	box-shadow: 3px 3px 5px 6px #ccc;
+}
+
+#grid-item-1:hover{
+	box-shadow: 3px 3px 5px 6px #ccc;
+}
+
+#grid-item-2:hover{
+	box-shadow: 3px 3px 5px 6px #ccc;
+}
 #grid-item-6{
 	grid-area: footer;
 	background-color: hsla(19, 88%, 30%, 0.863);
@@ -576,7 +588,12 @@ cursor:pointer;
 		word-wrap: break-word;
 		background-color:rgba(255, 255, 255, 0.137);
 	}
-	
+	.menu_items:hover{
+		
+			box-shadow: 3px 3px 5px 6px #ccc;
+		
+	}
+
 	/*About us */
 
 	.card {
