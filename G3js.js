@@ -136,8 +136,8 @@ function getDoc(){
     // request query
     if(request){
         // XMLHttpRequest.open ( "type" , "location / directory" , true if asynch false if synch );
-        var dataCtgory = document.getElementById('category').value;
-        request.open("GET" , dataCtgory , true);
+        //var dataCtgory = document.getElementById('category').value;
+        request.open("GET" , "Foods.xml" , true);
         // XMLHttpRequest status 
         //onreadystatechange - calls a function when the ready state changes
         request.onreadystatechange = function(){
@@ -191,7 +191,12 @@ function findClass(xml){
         //console.log(reqVal +" <br>");
       
 
-        
+        var reqAttr = xmlTag[i].getAttribute('category');
+
+      
+      var datacategory = document.getElementById('category').value;
+      
+      if( datacategory === reqAttr){
 
         var title = titleNode[i];
         var titleValue = title.firstChild.nodeValue;
@@ -254,7 +259,7 @@ function findClass(xml){
         cell.style.backgroundColor="white";
         table.style.backgroundColor="white";
         cell.style.border="1px solid black";
-
+      }else{ }
         
     }
 
