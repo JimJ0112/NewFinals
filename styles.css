@@ -116,13 +116,14 @@ body, html {
 	border: 1px solid black;
 	display: grid;
 	grid-template-columns: 3fr 1fr;
-	grid-template-rows:minmax(150px auto) ;
+	grid-template-rows:minmax(300px auto) ;
 	z-index: 1;
 	height: 100%;
 	grid-gap: 5px;
 	grid-template-areas: "title title"
 						 "gridcontent sidebar"
 						 "gridcontent1 sidebar1"
+						 "footer footer"
 						 "footer footer"
 
 	
@@ -211,15 +212,15 @@ body, html {
 
 	border: 1px solid black;
 	display: grid;
-	grid-template-columns: auto auto;
+	grid-template-columns: repeat(5,1fr);
 	grid-template-rows:minmax(150px 30px) ;
 	z-index: 1;
 	height: 100%;
 	grid-gap: 30px;
-	grid-template-areas: "a b"
-						 "c d"
-						 "ako g"
-						 "footer footer"
+	grid-template-areas: 
+						"header header header header header"
+						"a b c d ako "
+						 "footer footer footer footer footer"
 
 	
 
@@ -267,6 +268,11 @@ background-color: hsla(31, 100%, 10%, 0.295);
 
 
 /*styles*/
+.contact-img{
+	height: 50px;
+	width: 50px;
+	margin-left: 50px;
+}
 
 /*home*/
 
@@ -615,11 +621,19 @@ cursor:pointer;
 		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 		padding: 5px;
 		margin: 8px;
+		filter: grayscale(10);
+	  }
+
+	  .memberpic{
+		width:80%; border-radius: 500px; object-fit: cover;
+		height: 80%;
+		
 	  }
 
 	  .card:hover{
 	
-			box-shadow: 3px 3px 5px 6px #ccc;
+		filter: none;
+		box-shadow: 5px 1px 5px 5px #ccc;
 	
 	  }
 	  .container {
