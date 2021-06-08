@@ -123,8 +123,7 @@ body, html {
 	grid-template-areas: "title title"
 						 "gridcontent sidebar"
 						 "gridcontent1 sidebar1"
-						 "footer footer"
-						 "footer footer"
+
 
 	
 
@@ -190,20 +189,20 @@ body, html {
 
 	border: 1px solid black;
 	display: grid;
-	grid-template-columns:  3fr 1fr;
-	grid-template-rows:minmax(150px auto) ;
+	
 	z-index: 1;
 	height: 100%;
-	grid-gap: 0px, 0px;
+	
 	
 }
 
 #info-grid-item-1{ border: 1px solid rgba(255, 255, 255, 0.253);
-	background-color: rgba(255, 255, 255, 0.103);}
+	background-color: rgba(255, 255, 255, 0.103);
+	height: 100%;}
+
 #info-grid-item-2{
 	background-color: hsl(31, 91%, 18%);
-	height: 50px;
-	padding: 10px;
+	
  }
 
 /*Grid About us */
@@ -219,8 +218,9 @@ body, html {
 	grid-gap: 30px;
 	grid-template-areas: 
 						"header header header header header"
-						"a b c d ako "
-						 "footer footer footer footer footer"
+						"a b c d ako ";
+	overflow: auto;
+						
 
 	
 
@@ -536,7 +536,7 @@ cursor:pointer;
 
 #menudetails_Container{
 	width: 97%;
-	height: 90%;
+	height: 100%;
 	border: 5px solid white;
 	
 	
@@ -551,7 +551,7 @@ cursor:pointer;
 }
 #menudetails_DataContainer{
 		width: 100%;
-	height: 70%;
+	height: auto;
 	border: 1px solid white;
 	
 	overflow-y: auto;
@@ -618,27 +618,48 @@ cursor:pointer;
 	/*About us */
 
 	.card {
-		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+		/*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);*/
 		padding: 5px;
 		margin: 8px;
 		filter: grayscale(10);
+		height: 500px;
+		
 	  }
 
+
+
 	  .memberpic{
-		width:80%; border-radius: 500px; object-fit: cover;
-		height: 80%;
+		width:175px; border-radius: 500px; object-fit: cover;
+		height: 175px;
 		
 	  }
 
 	  .card:hover{
 	
 		filter: none;
-		box-shadow: 5px 1px 5px 5px #ccc;
+		background-color: #f18a0d3b;
+		font-family: arial;
+		font-weight: bolder;
+		
 	
 	  }
+	  .card p{
+		
+	}
+	span{ opacity: 0;
+	color:black;}
+  
+
+	 a:hover span {
+		opacity: 100;
+		color: black;
+	  }
+
 	  .container {
 		padding: 0 16px;
+		
 	  }
+
 	  
 	  .container::after, .row::after {
 		content: "";

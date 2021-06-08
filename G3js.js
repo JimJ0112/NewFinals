@@ -12,16 +12,16 @@
     		x.style.display = "inline";
     		
     		document.getElementById('grid-container').style.filter = 'blur(10px)';
-    		document.getElementById('bar').style.filter = 'blur(10px)';
-    		document.getElementById('deals').style.filter = 'blur(10px)';
+    		document.getElementById('navBar').style.filter = 'blur(10px)';
+    	
     	}
 
     	function CloseModal1(){
     		    		var x = document.getElementById('modal1');
     		x.style.display = "none";
     		document.getElementById('grid-container').style.filter = 'none';
-    		document.getElementById('bar').style.filter = 'none';
-    		document.getElementById('deals').style.filter = 'none';
+    		document.getElementById('navBar').style.filter = 'none';
+    		
     	}
 
     	    	function ShowModal2(){
@@ -29,16 +29,16 @@
     		x.style.display = "inline";
     		
     		document.getElementById('grid-container').style.filter = 'blur(10px)';
-    		document.getElementById('bar').style.filter = 'blur(10px)';
-    		document.getElementById('deals').style.filter = 'blur(10px)';
+    		document.getElementById('navBar').style.filter = 'blur(10px)';
+    		
     	}
 
     	function CloseModal2(){
     		    		var x = document.getElementById('modal2');
     		x.style.display = "none";
     		document.getElementById('grid-container').style.filter = 'none';
-    		document.getElementById('bar').style.filter = 'none';
-    		document.getElementById('deals').style.filter = 'none';
+    		document.getElementById('navBar').style.filter = 'none';
+    	
     	}
         // end of home part
 
