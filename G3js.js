@@ -165,7 +165,7 @@ function getDoc(){
 //extracting and displaying xml file
 
 function findClass(xml){
-  
+//gets xml tags  
     var titleNode = xml.getElementsByTagName('Name');
     var Availablefoods = xml.getElementsByTagName('Available');
     var inStock = xml.getElementsByTagName('inStock');
@@ -177,28 +177,18 @@ function findClass(xml){
 
 
        
-        /*
-        var creditStatus = xml.getElementsByTagName('Food');
-		var creditAttr = creditStatus[i].attributes;
-		var reqAttr = creditStatus[i].getAttribute('category');
-		var reqVal = reqAttr.nodeValue; */
-        
-		/*var acquiredAttribs = xmlTag[i].attributes;
-		var reqAttr = acquiredAttribs.getNamedItem('category');
-        var reqVal = reqAttr.nodeValue; */
-       // var reqAttr = xmlTag[i].getAttribute('category');
 
-        //console.log(reqVal +" <br>");
       
-
+//get attribute value
         var reqAttr = xmlTag[i].getAttribute('category');
 
       
       var datacategory = document.getElementById('category').value;
-      
+//compare attribute value to the <select> value
       if( datacategory === reqAttr){
-
+    //variable that handles the xml tag <name?
         var title = titleNode[i];
+    
         var titleValue = title.firstChild.nodeValue;
 
 
