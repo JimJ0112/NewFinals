@@ -4,29 +4,29 @@
 <Food category="Beef Burger"> 
 <category>Beef Burger</category>
 <Name >Beef Quarter Pounder </Name>
-<Available> 100 pcs</Available>
-<inStock> 300 pcs</inStock>
+<Available> 100 </Available>
+<inStock> 300 </inStock>
 </Food>
 
 <Food category = "Beef Burger">
 <category>Beef Burger </category>
 <Name>Spicy Beef Quarter Pounder </Name>
-<Available> 150 pcs</Available>
-<inStock> 250 pcs</inStock>
+<Available> 150</Available>
+<inStock> 250 </inStock>
 </Food>
 
 <Food category = "Beef Burger">
 <category>Beef Burger</category>
 <Name>Cheesy Melted Beef </Name>
-<Available> 110 pcs</Available>
-<inStock> 200 pcs</inStock>
+<Available> 110 </Available>
+<inStock> 200 </inStock>
 </Food>
 
 <Food category = "Chicken Burger">
 <category>Chicken Burger </category>
 <Name>Spicy Hand-breaded Crispy Burger</Name>
-<Available> 150 pcs</Available>
-<inStock> 250 pcs</inStock>
+<Available> 150 </Available>
+<inStock> 250 </inStock>
 </Food>
 
 <Food category = "Chicken Burger">
